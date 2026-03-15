@@ -1,5 +1,15 @@
 # Default rules
 - type: guideEntry
+  id: CorvaxRulesHiddenRoot
+  name: Corvax Rules (Hidden)
+  priority: 0
+  ruleEntry: true
+  text: "/ServerInfo/_CorvaxGoob/Guidebook/ServerRules/MrpRuleset.xml"
+  children:
+  - CorvaxRuleset
+  - CorvaxLRPRuleset
+
+- type: guideEntry
   id: CorvaxRuleset
   name: Правила сервера
   priority: 0
