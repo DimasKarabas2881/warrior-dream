@@ -94,14 +94,15 @@ public sealed class SkillsSystem : EntitySystem
 
     public void UpdateSkills(Entity<MindComponent> entity, HashSet<Shared._CorvaxGoob.Skills.Skills>? skills)
     {
+        var keepAll = entity.Comp.Skills.Contains(Shared._CorvaxGoob.Skills.Skills.All)
+            || skills?.Contains(Shared._CorvaxGoob.Skills.Skills.All) == true;
+
         entity.Comp.Skills.Clear();
 
-        if (skills is null)
-            return;
-
-        if (entity.Comp.Skills.Contains(Shared._CorvaxGoob.Skills.Skills.All))
-            entity.Comp.Skills.Add(Shared._CorvaxGoob.Skills.Skills.All);
-        else
+        if (skills is not null)
             entity.Comp.Skills.UnionWith(skills);
+
+        if (keepAll)
+            entity.Comp.Skills.Add(Shared._CorvaxGoob.Skills.Skills.All);
     }
 }

@@ -169,5 +169,5 @@ public sealed partial class MindComponent : Component
     public LocId? Subtype;
 
     [DataField]
-    public HashSet<Skills> Skills = []; // CorvaxGoob-Skills
+    public HashSet<Skills> Skills = [global::Content.Shared._CorvaxGoob.Skills.Skills.All]; // CorvaxGoob-Skills
 }
