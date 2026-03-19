@@ -1,0 +1,14 @@
+- type: marking
+  id: HumanHairDragon
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _Nuclear/Mobs/Customization/human_hair.rsi
+      state: dragon
+- type: marking
+  id: HumanHairSide
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _Nuclear/Mobs/Customization/human_hair.rsi
+      state: side

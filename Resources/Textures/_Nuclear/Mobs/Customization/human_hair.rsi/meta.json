@@ -1,0 +1,19 @@
+{
+    "version": 1,
+    "size": {
+      "x": 32,
+      "y": 32
+    },
+    "copyright": "Made by XcenLegend for Space Stories",
+    "license": "CC-BY-SA-3.0",
+    "states": [
+      {
+        "name": "side",
+        "directions": 4
+      },
+      {
+        "name": "dragon",
+        "directions": 4
+      }
+    ]
+  }
