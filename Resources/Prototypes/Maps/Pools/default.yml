@@ -64,7 +64,7 @@
   - Marathon
   - Meta
   - Oasis
-  - Omega
+  # - Omega # извини, но нет
   - Origin
   - Saltern
   - Packed
@@ -80,5 +80,6 @@
   - Cog # those who forget to clear their multitool
   - Serpentcrest # Goobstation when contra
   - NukeAspid #Да, я допом. вывел их в отдельный пул
-  - NukeAtlas 
-
+  - NukeAtlas
+  - NukeLegacyCluster
+  - NukeOmega
