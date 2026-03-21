@@ -230,7 +230,6 @@ namespace Content.IntegrationTests.Tests
             "Omega",
             "Origin",
             "OriginHighPop",  // Not in pool
-            "Aspid",
             "Packed",
             "Reach",
             "Saltern",
@@ -238,6 +237,11 @@ namespace Content.IntegrationTests.Tests
             "TestTeg",        // Dev map
             "Train",           // Not in pool
             // Goob end
+
+            // Nuclear Maps/Edit:
+            "NukeAspid",
+            "NukeAtlas",
+            // Nuclear end
 
             // Corvax-Goob-Maps-start
             "CorvaxAstra",

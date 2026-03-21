@@ -3,20 +3,20 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: gameMap
-  id: Aspid
-  mapName: 'NCS Aspid'
+  id: NukeAspid
+  mapName: 'NTLS Авалон' #Сменил название, потому-что могу
   mapPath: /Maps/_Nuclear/aspid.yml
-  minPlayers: 30
+  minPlayers: 15
   maxPlayers: 65
   stations:
     Aspid:
       stationProto: StandardNanotrasenStation
       components:
         - type: StationNameSetup
-          mapNameTemplate: '{0} NCS Aspid {1}'
+          mapNameTemplate: '{0} Авалон {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
-            prefixCreator: 'OG'
+            prefixCreator: 'LS'
         - type: StationEmergencyShuttle
           emergencyShuttlePath: /Maps/Shuttles/emergency_courser.yml
         - type: StationJobs
