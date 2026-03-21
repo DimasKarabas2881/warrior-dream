@@ -4,3 +4,5 @@
   maps:
   - NukeAspid #Сред. 15-30
   - NukeAtlas #Низк. 0-15
+  - NukeLegacyCluster # 0-35
+  - NukeOmega # 0-35
