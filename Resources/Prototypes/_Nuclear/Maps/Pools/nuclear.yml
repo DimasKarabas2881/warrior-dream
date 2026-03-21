@@ -1,0 +1,6 @@
+#На всякий вынес карты в отдельный пул.
+- type: gameMapPool
+  id: NukeMapPool
+  maps:
+  - NukeAspid #Сред. 15-30
+  - NukeAtlas #Низк. 0-15
