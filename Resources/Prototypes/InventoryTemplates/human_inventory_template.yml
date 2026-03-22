@@ -22,6 +22,29 @@
 - type: inventoryTemplate
   id: human
   slots:
+    # Nuclear - underwear
+    - name: undershirt
+      slotTexture: undershirt
+      slotFlags: UNDERSHIRT
+      stripTime: 8
+      uiWindowPos: 0,4
+      strippingWindowPos: 0,6
+      displayName: Undershirt
+    - name: underpants
+      slotTexture: underpants
+      slotFlags: UNDERPANTS
+      stripTime: 12
+      uiWindowPos: 1,4
+      strippingWindowPos: 1,6
+      displayName: Underpants
+    - name: socks
+      slotTexture: socks
+      slotFlags: SOCKS
+      stripTime: 3
+      uiWindowPos: 2,4
+      strippingWindowPos: 2,6
+      displayName: Socks
+    # Nuclear - underwear end
     - name: shoes
       slotTexture: shoes
       slotFlags: FEET

@@ -1,0 +1,42 @@
+- type: entity
+  abstract: true
+  description: Keep your private parts all cozy!
+  parent: ClothingUnderwearBaseButcherable
+  id: ClothingUnderPantsBase
+  components:
+    - type: Clothing
+      slots: [underpants]
+
+# Male #
+
+- type: entity
+  parent: ClothingUnderPantsBase
+  id: ClothingUnderPantsBoxers
+  name: boxers
+  description: "A pair of classic boxers, just as comfy as grandpa's."
+  components:
+    - type: Sprite
+      sprite: _Nuclear/Clothing/Under/Pants/Male/standart.rsi
+      state: boxers-icon
+    - type: Clothing
+      sprite: _Nuclear/Clothing/Under/Pants/Male/standart.rsi
+      clothingVisuals:
+        underpants:
+          - state: boxers
+
+# Female #
+
+- type: entity
+  parent: ClothingUnderPantsBase
+  id: ClothingUnderPantsBriefs
+  name: briefs
+  description: "A pair of briefs, for those who want a snug fit in all the right places."
+  components:
+    - type: Sprite
+      sprite: _Nuclear/Clothing/Under/Pants/Female/standart.rsi
+      state: briefs-icon
+    - type: Clothing
+      sprite: _Nuclear/Clothing/Under/Pants/Female/standart.rsi
+      clothingVisuals:
+        underpants:
+          - state: briefs

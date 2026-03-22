@@ -81,6 +81,7 @@
           sprite: _Floofstation/Mobs/Species/Resomi/displacement.rsi
           state: inHand
   - type: Inventory
+    templateId: nonunderwear # Nuclear - underwear
     speciesId: resomi
     displacements:
       jumpsuit:

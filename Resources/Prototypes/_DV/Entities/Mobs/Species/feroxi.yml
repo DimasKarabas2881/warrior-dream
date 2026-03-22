@@ -50,13 +50,16 @@
         # its fine, but its still very stupid that it has to be done like this instead of allowing sprites to just directly insert a stencil clear.
         # sprite refactor when
         state: l_leg
-      - map: [ "enum.HumanoidVisualLayers.Underwear" ] # Goob 120
-      - map: [ "enum.HumanoidVisualLayers.Undershirt" ] # Goob 120
-      - map: [ "jumpsuit" ]
-      - map: [ "enum.HumanoidVisualLayers.LHand" ]
-      - map: [ "enum.HumanoidVisualLayers.RHand" ]
+#      - map: [ "enum.HumanoidVisualLayers.Underwear" ] # Goob 120 | Nuclear - underwear
+#      - map: [ "enum.HumanoidVisualLayers.Undershirt" ] # Goob 120 | Nuclear - underwear
       - map: [ "enum.HumanoidVisualLayers.LFoot" ]
       - map: [ "enum.HumanoidVisualLayers.RFoot" ]
+      - map: ["underpants"] # Nuclear - underwear
+      - map: ["undershirt"] # Nuclear - underwear
+      - map: ["socks"] # Nuclear - underwear
+      - map: [ "jumpsuit" ]  # Nuclear - tweak
+      - map: [ "enum.HumanoidVisualLayers.LHand" ] # Nuclear - tweak
+      - map: [ "enum.HumanoidVisualLayers.RHand" ] # Nuclear - tweak
       - map: [ "enum.HumanoidVisualLayers.Handcuffs" ]
         color: "#ffffff"
         sprite: Objects/Misc/handcuffs.rsi

@@ -71,6 +71,9 @@ public sealed class ClientClothingSystem : ClothingSystem
         {"ears", "EARS"},
         {"mask", "MASK"},
         {"outerClothing", "OUTERCLOTHING"},
+        {"underpants", "UNDERPANTS"}, // Nuclear - Underwear
+        {"undershirt", "UNDERSHIRT"}, // Nuclear - Underwear
+        {"socks", "SOCKS"}, // Nuclear - Underwear
         {Jumpsuit, "INNERCLOTHING"},
         {"neck", "NECK"},
         {"back", "BACKPACK"},

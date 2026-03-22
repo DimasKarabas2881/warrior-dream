@@ -212,13 +212,16 @@
       - map: [ "enum.HumanoidVisualLayers.LArm" ]
       - map: [ "enum.HumanoidVisualLayers.RLeg" ]
       - map: [ "enum.HumanoidVisualLayers.LLeg" ]
-      - map: [ "enum.HumanoidVisualLayers.Underwear" ]
-      - map: [ "enum.HumanoidVisualLayers.Undershirt" ]
-      - map: [ "jumpsuit" ]
-      - map: [ "enum.HumanoidVisualLayers.LHand" ]
-      - map: [ "enum.HumanoidVisualLayers.RHand" ]
-      - map: [ "enum.HumanoidVisualLayers.LFoot" ]
-      - map: [ "enum.HumanoidVisualLayers.RFoot" ]
+#      - map: [ "enum.HumanoidVisualLayers.Underwear" ] Nuclear - underwear
+#      - map: [ "enum.HumanoidVisualLayers.Undershirt" ] Nuclear - underwear
+      - map: ["enum.HumanoidVisualLayers.LFoot"]
+      - map: ["enum.HumanoidVisualLayers.RFoot"]
+      - map: ["underpants"] # Nuclear - underwear
+      - map: ["undershirt"] # Nuclear - underwear
+      - map: ["socks"] # Nuclear - underwear
+      - map: [ "jumpsuit" ]  # Nuclear - tweak
+      - map: ["enum.HumanoidVisualLayers.LHand"]
+      - map: ["enum.HumanoidVisualLayers.RHand"]
       - map: [ "enum.HumanoidVisualLayers.Handcuffs" ]
         color: "#ffffff"
         sprite: Objects/Misc/handcuffs.rsi
@@ -276,6 +279,23 @@
           32:
             sprite: Mobs/Species/Moth/displacement.rsi
             state: shoes
+      # Nuclear underwear start
+      undershirt:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Moth/displacement.rsi
+            state: jumpsuit-female
+      underpants:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Moth/displacement.rsi
+            state: jumpsuit-female
+      socks:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Moth/displacement.rsi
+            state: shoes
+      # Nuclear underwear end
     displacements:
       jumpsuit:
         sizeMaps:
@@ -302,6 +322,23 @@
           32:
             sprite: Mobs/Species/Moth/displacement.rsi
             state: shoes
+      # Nuclear underwear start
+      undershirt:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Moth/displacement.rsi
+            state: jumpsuit-male
+      underpants:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Moth/displacement.rsi
+            state: jumpsuit-male
+      socks:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Moth/displacement.rsi
+            state: shoes
+      # Nuclear underwear end
   - type: Fixtures # Goob edit - make moths lighter
     fixtures: # TODO: This needs a second fixture just for mob collisions.
       fix1:

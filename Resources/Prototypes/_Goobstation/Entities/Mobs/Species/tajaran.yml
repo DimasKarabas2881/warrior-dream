@@ -122,6 +122,23 @@
           32:
             sprite: _CorvaxGoob/Mobs/Species/displacement.rsi
             state: shoes
+      # Nuclear underwear start
+      undershirt:
+        sizeMaps:
+          32:
+            sprite: _CorvaxGoob/Mobs/Species/displacement.rsi
+            state: jumpsuit-female
+      underpants:
+        sizeMaps:
+          32:
+            sprite: _CorvaxGoob/Mobs/Species/displacement.rsi
+            state: jumpsuit-female
+      socks:
+        sizeMaps:
+          32:
+            sprite: _CorvaxGoob/Mobs/Species/displacement.rsi
+            state: shoes
+      # Nuclear underwear end
     displacements:
       jumpsuit:
         sizeMaps:
@@ -133,6 +150,23 @@
           32:
             sprite: _CorvaxGoob/Mobs/Species/displacement.rsi
             state: shoes
+      # Nuclear underwear start
+      undershirt:
+        sizeMaps:
+          32:
+            sprite: _CorvaxGoob/Mobs/Species/displacement.rsi
+            state: jumpsuit
+      underpants:
+        sizeMaps:
+          32:
+            sprite: _CorvaxGoob/Mobs/Species/displacement.rsi
+            state: jumpsuit
+      socks:
+        sizeMaps:
+          32:
+            sprite: _CorvaxGoob/Mobs/Species/displacement.rsi
+            state: shoes
+      # Nuclear underwear end
   - type: PseudoItem
     storedOffset: 0,17
     shape:

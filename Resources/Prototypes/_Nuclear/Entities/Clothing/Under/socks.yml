@@ -1,0 +1,23 @@
+- type: entity
+  abstract: true
+  description: Did you know these things come in different colors??
+  parent: ClothingUnderwearBaseButcherable
+  id: ClothingUnderSocksBase
+  components:  
+    - type: Clothing
+      slots: [socks]
+
+- type: entity
+  parent: ClothingUnderSocksBase
+  id: ClothingUnderSocksNormal
+  name: socks
+  description: "A pair of basic socks, perfect for when you need to blend in with the crowd."
+  components:
+    - type: Sprite
+      sprite: _Nuclear/Clothing/Under/Socks/standart.rsi
+      state: normal-icon
+    - type: Clothing
+      sprite: _Nuclear/Clothing/Under/Socks/standart.rsi
+      clothingVisuals:
+        socks:
+          - state: normal

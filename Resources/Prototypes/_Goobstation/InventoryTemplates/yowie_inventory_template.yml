@@ -28,6 +28,22 @@
 - type: inventoryTemplate
   id: yowie
   slots:
+    # Nuclear - underwear
+    - name: undershirt
+      slotTexture: undershirt
+      slotFlags: UNDERSHIRT
+      stripTime: 8
+      uiWindowPos: 0,4
+      strippingWindowPos: 0,6
+      displayName: Undershirt
+    - name: underpants
+      slotTexture: underpants
+      slotFlags: UNDERPANTS
+      stripTime: 12
+      uiWindowPos: 1,4
+      strippingWindowPos: 1,6
+      displayName: Underpants
+    # Nuclear - underwear end
     - name: jumpsuit
       slotTexture: uniform
       slotFlags: INNERCLOTHING

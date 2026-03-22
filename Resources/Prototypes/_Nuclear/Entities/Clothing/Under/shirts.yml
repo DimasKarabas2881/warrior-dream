@@ -1,0 +1,23 @@
+- type: entity
+  abstract: true
+  description: To go under your shirt.
+  parent: ClothingUnderwearBaseButcherable
+  id: ClothingUnderShirtBase
+  components:
+    - type: Clothing
+      slots: [undershirt]
+
+- type: entity
+  parent: ClothingUnderShirtBase
+  id: ClothingUnderShirtBra
+  name: bra
+  description: "A bra providing a little lift."
+  components:
+    - type: Sprite
+      sprite: _Nuclear/Clothing/Under/Bra/standart.rsi
+      state: bra-icon
+    - type: Clothing
+      sprite: _Nuclear/Clothing/Under/Bra/standart.rsi
+      clothingVisuals:
+        undershirt:
+          - state: bra

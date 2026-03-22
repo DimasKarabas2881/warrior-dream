@@ -137,11 +137,14 @@
       - map: [ "enum.HumanoidVisualLayers.LArm" ]
       - map: [ "enum.HumanoidVisualLayers.RLeg" ]
       - map: [ "enum.HumanoidVisualLayers.LLeg" ]
-      - map: [ "enum.HumanoidVisualLayers.Underwear" ]
-      - map: [ "enum.HumanoidVisualLayers.Undershirt" ]
-      - map: ["jumpsuit"]
+#      - map: [ "enum.HumanoidVisualLayers.Underwear" ] Nuclear - underwear
+#      - map: [ "enum.HumanoidVisualLayers.Undershirt" ] Nuclear - underwear
       - map: ["enum.HumanoidVisualLayers.LFoot"]
       - map: ["enum.HumanoidVisualLayers.RFoot"]
+      - map: ["underpants"] # Nuclear - underwear
+      - map: ["undershirt"] # Nuclear - underwear
+      - map: ["socks"] # Nuclear - underwear
+      - map: [ "jumpsuit" ]  # Nuclear - tweak
       - map: ["enum.HumanoidVisualLayers.LHand"]
       - map: ["enum.HumanoidVisualLayers.RHand"]
       - map: [ "enum.HumanoidVisualLayers.Face" ]
