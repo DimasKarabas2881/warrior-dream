@@ -114,11 +114,11 @@
         Slash: 0.9
         Piercing: 0.9
         Heat: 0.9
-  - type: HideLayerClothing
-    layers:
-      Hair: HEAD
-      HeadTop: HEAD
-      HeadSide: HEAD
+#  - type: HideLayerClothing | Nuclear - закомменчено, потому что надо
+#    layers:
+#      Hair: HEAD
+#      HeadTop: HEAD
+#      HeadSide: HEAD
 
 - type: entity
   parent: ClothingHeadHatHardhatBase

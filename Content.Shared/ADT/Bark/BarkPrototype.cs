@@ -107,7 +107,7 @@ public sealed partial class BarkData
 public static class BarkDefaults
 {
     public const float MinPitch = 0.6f;
-    public const float MaxPitch = 1.5f;
+    public const float MaxPitch = 3.0f; // Nuclear-Edit: Change from 1.5 to 3.0
     public const float MinDelay = 0.1f;
     public const float MaxDelay = 0.6f;
 }
