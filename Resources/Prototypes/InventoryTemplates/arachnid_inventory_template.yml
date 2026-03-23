@@ -50,7 +50,7 @@
 - type: inventoryTemplate
   id: arachnid
   slots:
-    # Nuclear - underwear
+    # Nuclear-Add: Underwear Start
     - name: undershirt
       slotTexture: undershirt
       slotFlags: UNDERSHIRT
@@ -72,7 +72,7 @@
       uiWindowPos: 2,4
       strippingWindowPos: 2,6
       displayName: Socks
-    # Nuclear - underwear end
+    # Nuclear-Add: Underwear End
     - name: shoes
       slotTexture: shoes
       slotFlags: FEET

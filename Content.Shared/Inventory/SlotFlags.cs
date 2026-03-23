@@ -39,9 +39,11 @@ public enum SlotFlags
     LEGS = 1 << 13,
     FEET = 1 << 14,
     SUITSTORAGE = 1 << 15,
-    UNDERPANTS = 1 << 16, // Nuclear - underwear
-    UNDERSHIRT = 1 << 17, // Nuclear - underwear
-    SOCKS = 1 << 18, // Nuclear - underwear
+    // Nuclear-Add: Underwear Start
+    UNDERPANTS = 1 << 16,
+    UNDERSHIRT = 1 << 17,
+    SOCKS = 1 << 18,
+    // Nuclear-Add: Underwear End
     All = ~NONE,
 
     WITHOUT_POCKET = All & ~POCKET

@@ -71,9 +71,11 @@ public sealed class ClientClothingSystem : ClothingSystem
         {"ears", "EARS"},
         {"mask", "MASK"},
         {"outerClothing", "OUTERCLOTHING"},
-        {"underpants", "UNDERPANTS"}, // Nuclear - Underwear
-        {"undershirt", "UNDERSHIRT"}, // Nuclear - Underwear
-        {"socks", "SOCKS"}, // Nuclear - Underwear
+        // Nuclear-Add: Underwear Start
+        {"underpants", "UNDERPANTS"},
+        {"undershirt", "UNDERSHIRT"},
+        {"socks", "SOCKS"},
+        // Nuclear-Add: Underwear End
         {Jumpsuit, "INNERCLOTHING"},
         {"neck", "NECK"},
         {"back", "BACKPACK"},
@@ -205,11 +207,12 @@ public sealed class ClientClothingSystem : ClothingSystem
         if (clothing.EquippedState != null)
             state = $"{clothing.EquippedState}";
 
-        // Nuclear - female gender specific
+        // Nuclear-Add: Female gender specific Start
         if (TryComp(equipee, out HumanoidAppearanceComponent? humanoid) && 
             humanoid.Sex == Sex.Female && 
             rsi.TryGetState($"{state}-female", out _))
             state = $"{state}-female";
+        // Nuclear-Add: Female gender specific End
 
         // species specific
         if (speciesId != null && rsi.TryGetState($"{state}-{speciesId}", out _))

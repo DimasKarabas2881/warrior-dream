@@ -218,7 +218,7 @@
           32:
             sprite: _White/Mobs/Species/displacement.rsi
             state: shoes
-      # Nuclear underwear start
+      # Nuclear-Add: Underwear Start
       undershirt:
         sizeMaps:
           32:
@@ -234,7 +234,7 @@
           32:
             sprite: _White/Mobs/Species/displacement.rsi
             state: shoes
-      # Nuclear underwear end
+      # Nuclear-Add: Underwear End
     displacements:
       jumpsuit:
         sizeMaps:
@@ -246,7 +246,7 @@
           32:
             sprite: _White/Mobs/Species/displacement.rsi
             state: shoes
-      # Nuclear underwear start
+      # Nuclear-Add: Underwear Start
       undershirt:
         sizeMaps:
           32:
@@ -262,7 +262,7 @@
           32:
             sprite: _White/Mobs/Species/displacement.rsi
             state: shoes
-      # Nuclear underwear end
+      # Nuclear-Add: Underwear End
     # WWDP-Edit-End
   - type: Consciousness # Idk they are kinda more resistant to pain
     threshold: 105
