@@ -155,14 +155,6 @@ public sealed class InventoryUIController : UIController, IOnStateEntered<Gamepl
             _inventoryButton = button;
             _inventoryButton.Pressed += InventoryButtonPressed;
         }
-
-        // Orion-Edit-Start
-        if (button == null)
-            return;
-
-        _inventoryButton = button;
-        _inventoryButton.Pressed += InventoryButtonPressed;
-        // Orion-Edit-End
     }
 
     private void InventoryButtonPressed(GUIBoundKeyEventArgs args, SlotControl control)
