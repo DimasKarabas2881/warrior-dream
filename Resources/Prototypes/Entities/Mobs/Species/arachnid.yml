@@ -146,7 +146,7 @@
       - map: ["undershirt"]
       - map: ["socks"]
       # Nuclear-Add End
-      - map: [ "jumpsuit" ] # Nuclear-Edit: Layers tweaks
+      - map: [ "jumpsuit" ] # Nuclear-Edit: Foots under jumpsuit
       - map: ["enum.HumanoidVisualLayers.LHand"]
       - map: ["enum.HumanoidVisualLayers.RHand"]
       - map: [ "enum.HumanoidVisualLayers.Face" ]

@@ -4,6 +4,8 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
+# Nuclear: Removed due to lack of need.
+
 #- type: marking
 #  id: UnderwearDefault
 #  bodyPart: Underwear

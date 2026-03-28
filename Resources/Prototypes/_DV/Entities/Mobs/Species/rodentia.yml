@@ -99,9 +99,9 @@
       - map: ["undershirt"]
       - map: ["socks"]
       # Nuclear-Add End
-      - map: [ "jumpsuit" ] # Nuclear-Edit: Layers tweaks
-      - map: [ "enum.HumanoidVisualLayers.LHand" ] # Nuclear-Edit: Layers tweaks
-      - map: [ "enum.HumanoidVisualLayers.RHand" ] # Nuclear-Edit: Layers tweaks
+      - map: [ "jumpsuit" ] # Nuclear-Edit: Foots under jumpsuit | Jumpsuit under hands
+      - map: [ "enum.HumanoidVisualLayers.LHand" ]
+      - map: [ "enum.HumanoidVisualLayers.RHand" ]
       - map: [ "enum.HumanoidVisualLayers.Handcuffs" ]
         color: "#ffffff"
         sprite: Objects/Misc/handcuffs.rsi
