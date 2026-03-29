@@ -76,6 +76,23 @@
           32:
             sprite: _Shitmed/Mobs/Species/Abductor/displacement.rsi
             state: jumpsuit
+      # Nuclear-Add: Underwear Start
+      undershirt:
+        sizeMaps:
+          32:
+            sprite: _Shitmed/Mobs/Species/Abductor/displacement.rsi
+            state: jumpsuit
+      underpants:
+        sizeMaps:
+          32:
+            sprite: _Shitmed/Mobs/Species/Abductor/displacement.rsi
+            state: jumpsuit
+      socks:
+        sizeMaps:
+          32:
+            sprite: _Nuclear/Mobs/Species/displacement.rsi
+            state: abductor-socks
+      # Nuclear-Add: Underwear End
   - type: OfferItem # CorvaxGoob-Offer
 
 - type: entity

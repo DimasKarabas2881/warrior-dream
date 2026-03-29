@@ -295,8 +295,8 @@
       socks:
         sizeMaps:
           32:
-            sprite: Mobs/Species/Moth/displacement.rsi
-            state: shoes
+            sprite: _Nuclear/Mobs/Species/displacement.rsi
+            state: moth-socks
       # Nuclear underwear end
     displacements:
       jumpsuit:
@@ -338,8 +338,8 @@
       socks:
         sizeMaps:
           32:
-            sprite: Mobs/Species/Moth/displacement.rsi
-            state: shoes
+            sprite: _Nuclear/Mobs/Species/displacement.rsi
+            state: moth-socks
       # Nuclear underwear end
   - type: Fixtures # Goob edit - make moths lighter
     fixtures: # TODO: This needs a second fixture just for mob collisions.
@@ -391,6 +391,23 @@
           32:
             sprite: Mobs/Species/Moth/displacement.rsi
             state: shoes
+      # Nuclear underwear start
+      undershirt:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Moth/displacement.rsi
+            state: jumpsuit-female
+      underpants:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Moth/displacement.rsi
+            state: jumpsuit-female
+      socks:
+        sizeMaps:
+          32:
+            sprite: _Nuclear/Mobs/Species/displacement.rsi
+            state: moth-socks
+      # Nuclear underwear end
     displacements:
       jumpsuit:
         sizeMaps:
@@ -417,3 +434,20 @@
           32:
             sprite: Mobs/Species/Moth/displacement.rsi
             state: shoes
+      # Nuclear underwear start
+      undershirt:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Moth/displacement.rsi
+            state: jumpsuit-male
+      underpants:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Moth/displacement.rsi
+            state: jumpsuit-male
+      socks:
+        sizeMaps:
+          32:
+            sprite: _Nuclear/Mobs/Species/displacement.rsi
+            state: moth-socks
+      # Nuclear underwear end
