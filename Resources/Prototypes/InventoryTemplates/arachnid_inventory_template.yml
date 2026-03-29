@@ -64,7 +64,7 @@
       slotFlags: UNDERPANTS
       slotGroup: Extra # Orion: Extra slotGroup
       stripTime: 12
-      uiWindowPos: 0,1
+      uiWindowPos: 0,2
       strippingWindowPos: 1,6
       displayName: Underpants
     - name: socks
@@ -72,7 +72,7 @@
       slotFlags: SOCKS
       slotGroup: Extra # Orion: Extra slotGroup
       stripTime: 3
-      uiWindowPos: 0,2
+      uiWindowPos: 0,1
       strippingWindowPos: 2,6
       displayName: Socks
     # Nuclear-Add: Underwear End

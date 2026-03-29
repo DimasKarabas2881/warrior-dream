@@ -34,7 +34,7 @@
       slotFlags: UNDERSHIRT
       slotGroup: Extra # Orion: Extra slotGroup
       stripTime: 8
-      uiWindowPos: 0,3
+      uiWindowPos: 0,2
       strippingWindowPos: 0,6
       displayName: Undershirt
     - name: underpants
