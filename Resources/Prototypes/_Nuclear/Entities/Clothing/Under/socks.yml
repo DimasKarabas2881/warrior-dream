@@ -14,10 +14,25 @@
   description: "A pair of basic socks, perfect for when you need to blend in with the crowd."
   components:
     - type: Sprite
-      sprite: _Nuclear/Clothing/Under/Socks/standart.rsi
+      sprite: _Nuclear/Clothing/Under/Socks/color.rsi
       state: normal-icon
     - type: Clothing
-      sprite: _Nuclear/Clothing/Under/Socks/standart.rsi
+      sprite: _Nuclear/Clothing/Under/Socks/color.rsi
       clothingVisuals:
         socks:
           - state: normal
+
+- type: entity
+  parent: ClothingUnderSocksBase
+  id: ClothingUnderSocksThigh
+  name: thigh-highs
+  description: "A pair of thigh-highs, perfect for when you want to add a pop of color to your outfit."
+  components:
+    - type: Sprite
+      sprite: _Nuclear/Clothing/Under/Socks/color.rsi
+      state: thigh-icon
+    - type: Clothing
+      sprite: _Nuclear/Clothing/Under/Socks/color.rsi
+      clothingVisuals:
+        socks:
+          - state: thigh
