@@ -14,6 +14,11 @@
     - type: Item
       size: Small
       storedRotation: -90
+      inhandVisuals:
+        left:
+        - state: inhand-left
+        right:
+        - state: inhand-right
     - type: Food
       requiresSpecialDigestion: true
     - type: SolutionContainerManager
