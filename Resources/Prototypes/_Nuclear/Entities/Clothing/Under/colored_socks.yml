@@ -22,6 +22,27 @@
 
 - type: entity
   parent: ClothingUnderSocksShort
+  id: ClothingUnderSocksShortColorDarkGrey
+  name: dark grey ankle socks
+  components:
+  - type: Sprite
+    color: "#7b7b7b"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: short
+        color: "#7b7b7b"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#7b7b7b"
+      right:
+      - state: inhand-right
+        color: "#7b7b7b"
+
+- type: entity
+  parent: ClothingUnderSocksShort
   id: ClothingUnderSocksShortColorBlack
   name: black ankle socks
   components:
@@ -40,6 +61,27 @@
       right:
       - state: inhand-right
         color: "#3f3f3f"
+
+- type: entity
+  parent: ClothingUnderSocksShort
+  id: ClothingUnderSocksShortColorCyan
+  name: cyan ankle socks
+  components:
+  - type: Sprite
+    color: "#5fcde4"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: short
+        color: "#5fcde4"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#5fcde4"
+      right:
+      - state: inhand-right
+        color: "#5fcde4"
 
 - type: entity
   parent: ClothingUnderSocksShort
@@ -106,8 +148,8 @@
 
 - type: entity
   parent: ClothingUnderSocksShort
-  id: ClothingUnderSocksShortColorGreen
-  name: green ankle socks
+  id: ClothingUnderSocksShortColorLightGreen
+  name: light green ankle socks
   components:
   - type: Sprite
     color: "#9ed63a"
@@ -124,6 +166,27 @@
       right:
       - state: inhand-right
         color: "#9ed63a"
+
+- type: entity
+  parent: ClothingUnderSocksShort
+  id: ClothingUnderSocksShortColorGreen
+  name: green ankle socks
+  components:
+  - type: Sprite
+    color: "#6abe30"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: short
+        color: "#6abe30"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#6abe30"
+      right:
+      - state: inhand-right
+        color: "#6abe30"
 
 - type: entity
   parent: ClothingUnderSocksShort
@@ -190,6 +253,27 @@
 
 - type: entity
   parent: ClothingUnderSocksShort
+  id: ClothingUnderSocksShortColorHotPink
+  name: hot pink ankle socks
+  components:
+  - type: Sprite
+    color: "#d77bba"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: short
+        color: "#d77bba"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#d77bba"
+      right:
+      - state: inhand-right
+        color: "#d77bba"
+
+- type: entity
+  parent: ClothingUnderSocksShort
   id: ClothingUnderSocksShortColorRed
   name: red ankle socks
   components:
@@ -250,6 +334,27 @@
       right:
       - state: inhand-right
         color: "#9f70cc"
+
+- type: entity
+  parent: ClothingUnderSocksShort
+  id: ClothingUnderSocksShortColorDarkPurple
+  name: dark purple ankle socks
+  components:
+  - type: Sprite
+    color: "#9a43bc"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: short
+        color: "#9a43bc"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#9a43bc"
+      right:
+      - state: inhand-right
+        color: "#9a43bc"
 
 - type: entity
   parent: ClothingUnderSocksShort
@@ -338,6 +443,27 @@
 
 - type: entity
   parent: ClothingUnderSocksNormal
+  id: ClothingUnderSocksNormalColorDarkGrey
+  name: dark grey socks
+  components:
+  - type: Sprite
+    color: "#7b7b7b"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: normal
+        color: "#7b7b7b"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#7b7b7b"
+      right:
+      - state: inhand-right
+        color: "#7b7b7b"
+
+- type: entity
+  parent: ClothingUnderSocksNormal
   id: ClothingUnderSocksNormalColorBlack
   name: black socks
   components:
@@ -356,6 +482,27 @@
       right:
       - state: inhand-right
         color: "#3f3f3f"
+
+- type: entity
+  parent: ClothingUnderSocksNormal
+  id: ClothingUnderSocksNormalColorCyan
+  name: cyan socks
+  components:
+  - type: Sprite
+    color: "#5fcde4"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: normal
+        color: "#5fcde4"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#5fcde4"
+      right:
+      - state: inhand-right
+        color: "#5fcde4"
 
 - type: entity
   parent: ClothingUnderSocksNormal
@@ -422,8 +569,8 @@
 
 - type: entity
   parent: ClothingUnderSocksNormal
-  id: ClothingUnderSocksNormalColorGreen
-  name: green socks
+  id: ClothingUnderSocksNormalColorLightGreen
+  name: light green socks
   components:
   - type: Sprite
     color: "#9ed63a"
@@ -440,6 +587,27 @@
       right:
       - state: inhand-right
         color: "#9ed63a"
+
+- type: entity
+  parent: ClothingUnderSocksNormal
+  id: ClothingUnderSocksNormalColorGreen
+  name: green socks
+  components:
+  - type: Sprite
+    color: "#6abe30"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: normal
+        color: "#6abe30"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#6abe30"
+      right:
+      - state: inhand-right
+        color: "#6abe30"
 
 - type: entity
   parent: ClothingUnderSocksNormal
@@ -506,6 +674,27 @@
 
 - type: entity
   parent: ClothingUnderSocksNormal
+  id: ClothingUnderSocksNormalColorHotPink
+  name: hot pink socks
+  components:
+  - type: Sprite
+    color: "#d77bba"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: normal
+        color: "#d77bba"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#d77bba"
+      right:
+      - state: inhand-right
+        color: "#d77bba"
+
+- type: entity
+  parent: ClothingUnderSocksNormal
   id: ClothingUnderSocksNormalColorRed
   name: red socks
   components:
@@ -566,6 +755,27 @@
       right:
       - state: inhand-right
         color: "#9f70cc"
+
+- type: entity
+  parent: ClothingUnderSocksNormal
+  id: ClothingUnderSocksNormalColorDarkPurple
+  name: dark purple socks
+  components:
+  - type: Sprite
+    color: "#9a43bc"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: normal
+        color: "#9a43bc"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#9a43bc"
+      right:
+      - state: inhand-right
+        color: "#9a43bc"
 
 - type: entity
   parent: ClothingUnderSocksNormal
@@ -654,6 +864,27 @@
 
 - type: entity
   parent: ClothingUnderSocksKnee
+  id: ClothingUnderSocksKneeColorDarkGrey
+  name: dark grey knee-highs
+  components:
+  - type: Sprite
+    color: "#7b7b7b"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: knee
+        color: "#7b7b7b"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#7b7b7b"
+      right:
+      - state: inhand-right
+        color: "#7b7b7b"
+
+- type: entity
+  parent: ClothingUnderSocksKnee
   id: ClothingUnderSocksKneeColorBlack
   name: black knee-highs
   components:
@@ -672,6 +903,27 @@
       right:
       - state: inhand-right
         color: "#3f3f3f"
+
+- type: entity
+  parent: ClothingUnderSocksKnee
+  id: ClothingUnderSocksKneeColorCyan
+  name: cyan knee-highs
+  components:
+  - type: Sprite
+    color: "#5fcde4"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: knee
+        color: "#5fcde4"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#5fcde4"
+      right:
+      - state: inhand-right
+        color: "#5fcde4"
 
 - type: entity
   parent: ClothingUnderSocksKnee
@@ -738,8 +990,8 @@
 
 - type: entity
   parent: ClothingUnderSocksKnee
-  id: ClothingUnderSocksKneeColorGreen
-  name: green knee-highs
+  id: ClothingUnderSocksKneeColorLightGreen
+  name: light green knee-highs
   components:
   - type: Sprite
     color: "#9ed63a"
@@ -756,6 +1008,27 @@
       right:
       - state: inhand-right
         color: "#9ed63a"
+
+- type: entity
+  parent: ClothingUnderSocksKnee
+  id: ClothingUnderSocksKneeColorGreen
+  name: green knee-highs
+  components:
+  - type: Sprite
+    color: "#6abe30"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: knee
+        color: "#6abe30"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#6abe30"
+      right:
+      - state: inhand-right
+        color: "#6abe30"
 
 - type: entity
   parent: ClothingUnderSocksKnee
@@ -822,6 +1095,27 @@
 
 - type: entity
   parent: ClothingUnderSocksKnee
+  id: ClothingUnderSocksKneeColorHotPink
+  name: hot pink knee-highs
+  components:
+  - type: Sprite
+    color: "#d77bba"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: knee
+        color: "#d77bba"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#d77bba"
+      right:
+      - state: inhand-right
+        color: "#d77bba"
+
+- type: entity
+  parent: ClothingUnderSocksKnee
   id: ClothingUnderSocksKneeColorRed
   name: red knee-highs
   components:
@@ -882,6 +1176,27 @@
       right:
       - state: inhand-right
         color: "#9f70cc"
+
+- type: entity
+  parent: ClothingUnderSocksKnee
+  id: ClothingUnderSocksKneeColorDarkPurple
+  name: dark purple knee-highs
+  components:
+  - type: Sprite
+    color: "#9a43bc"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: knee
+        color: "#9a43bc"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#9a43bc"
+      right:
+      - state: inhand-right
+        color: "#9a43bc"
 
 - type: entity
   parent: ClothingUnderSocksKnee
@@ -970,6 +1285,27 @@
 
 - type: entity
   parent: ClothingUnderSocksThigh
+  id: ClothingUnderSocksThighColorDarkGrey
+  name: dark grey thigh-highs
+  components:
+  - type: Sprite
+    color: "#7b7b7b"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: thigh
+        color: "#7b7b7b"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#7b7b7b"
+      right:
+      - state: inhand-right
+        color: "#7b7b7b"
+
+- type: entity
+  parent: ClothingUnderSocksThigh
   id: ClothingUnderSocksThighColorBlack
   name: black thigh-highs
   components:
@@ -988,6 +1324,27 @@
       right:
       - state: inhand-right
         color: "#3f3f3f"
+
+- type: entity
+  parent: ClothingUnderSocksThigh
+  id: ClothingUnderSocksThighColorCyan
+  name: cyan thigh-highs
+  components:
+  - type: Sprite
+    color: "#5fcde4"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: thigh
+        color: "#5fcde4"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#5fcde4"
+      right:
+      - state: inhand-right
+        color: "#5fcde4"
 
 - type: entity
   parent: ClothingUnderSocksThigh
@@ -1054,8 +1411,8 @@
 
 - type: entity
   parent: ClothingUnderSocksThigh
-  id: ClothingUnderSocksThighColorGreen
-  name: green thigh-highs
+  id: ClothingUnderSocksThighColorLightGreen
+  name: light green thigh-highs
   components:
   - type: Sprite
     color: "#9ed63a"
@@ -1072,6 +1429,27 @@
       right:
       - state: inhand-right
         color: "#9ed63a"
+
+- type: entity
+  parent: ClothingUnderSocksThigh
+  id: ClothingUnderSocksThighColorGreen
+  name: green thigh-highs
+  components:
+  - type: Sprite
+    color: "#6abe30"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: thigh
+        color: "#6abe30"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#6abe30"
+      right:
+      - state: inhand-right
+        color: "#6abe30"
 
 - type: entity
   parent: ClothingUnderSocksThigh
@@ -1138,6 +1516,27 @@
 
 - type: entity
   parent: ClothingUnderSocksThigh
+  id: ClothingUnderSocksThighColorHotPink
+  name: hot pink thigh-highs
+  components:
+  - type: Sprite
+    color: "#d77bba"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: thigh
+        color: "#d77bba"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#d77bba"
+      right:
+      - state: inhand-right
+        color: "#d77bba"
+
+- type: entity
+  parent: ClothingUnderSocksThigh
   id: ClothingUnderSocksThighColorRed
   name: red thigh-highs
   components:
@@ -1198,6 +1597,27 @@
       right:
       - state: inhand-right
         color: "#9f70cc"
+
+- type: entity
+  parent: ClothingUnderSocksThigh
+  id: ClothingUnderSocksThighColorDarkPurple
+  name: dark purple thigh-highs
+  components:
+  - type: Sprite
+    color: "#9a43bc"
+  - type: Clothing
+    clothingVisuals:
+      socks:
+      - state: thigh
+        color: "#9a43bc"
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        color: "#9a43bc"
+      right:
+      - state: inhand-right
+        color: "#9a43bc"
 
 - type: entity
   parent: ClothingUnderSocksThigh
