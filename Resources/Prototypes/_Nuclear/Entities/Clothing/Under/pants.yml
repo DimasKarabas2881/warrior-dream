@@ -48,10 +48,25 @@
   description: "A pair of regular panties, good old fashioned."
   components:
   - type: Sprite
-    sprite: _Nuclear/Clothing/Under/Pants/Female/standart.rsi
-    state: briefs-icon
+    sprite: _Nuclear/Clothing/Under/Pants/Female/color.rsi
+    state: panties-icon
   - type: Clothing
-    sprite: _Nuclear/Clothing/Under/Pants/Female/standart.rsi
+    sprite: _Nuclear/Clothing/Under/Pants/Female/color.rsi
     clothingVisuals:
       underpants:
-        - state: briefs
+        - state: panties
+
+- type: entity
+  parent: ClothingUnderPantsBase
+  id: ClothingUnderPantsSport
+  name: sports panties
+  description: "A pair of sports panties, hugging your body without rubbing — perfect for jogging!" # Спортивные трусики, плотно облегают и не натирают - cамое то для пробежки!
+  components:
+  - type: Sprite
+    sprite: _Nuclear/Clothing/Under/Pants/Female/color.rsi
+    state: sport-icon
+  - type: Clothing
+    sprite: _Nuclear/Clothing/Under/Pants/Female/color.rsi
+    clothingVisuals:
+      underpants:
+        - state: sport
