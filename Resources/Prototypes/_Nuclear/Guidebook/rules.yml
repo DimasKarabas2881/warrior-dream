@@ -92,6 +92,7 @@
   - NWRule33
   - NWRule34
   - NWRule35
+  - NWRule36
 
 - type: guideEntry
   id: NWRule31
@@ -127,6 +128,13 @@
   priority: 5
   ruleEntry: true
   text: "/ServerInfo/_Nuclear/Guidebook/ServerRules/Rule3.5.xml"
+
+- type: guideEntry
+  id: NWRule36
+  name: "3.6. Ступиднейм"
+  priority: 6
+  ruleEntry: true
+  text: "/ServerInfo/_Nuclear/Guidebook/ServerRules/Rule3.6.xml"
 
 - type: guideEntry
   id: NWSection4
