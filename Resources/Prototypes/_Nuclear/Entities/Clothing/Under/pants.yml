@@ -22,7 +22,7 @@
     sprite: _Nuclear/Clothing/Under/Pants/Male/color.rsi
     clothingVisuals:
       underpants:
-        - state: boxers
+      - state: boxers
 
 - type: entity
   parent: ClothingUnderPantsBase
@@ -37,7 +37,7 @@
     sprite: _Nuclear/Clothing/Under/Pants/Male/color.rsi
     clothingVisuals:
       underpants:
-        - state: briefs
+      - state: briefs
 
 # Female #
 
@@ -54,7 +54,7 @@
     sprite: _Nuclear/Clothing/Under/Pants/Female/color.rsi
     clothingVisuals:
       underpants:
-        - state: panties
+      - state: panties
 
 - type: entity
   parent: ClothingUnderPantsBase
@@ -69,4 +69,4 @@
     sprite: _Nuclear/Clothing/Under/Pants/Female/color.rsi
     clothingVisuals:
       underpants:
-        - state: sport
+      - state: sport
