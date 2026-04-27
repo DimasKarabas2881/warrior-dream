@@ -133,7 +133,7 @@
 - type: lobbyBackground
   id: LostAndPowerless
   background: /Textures/_CorvaxGoob/LobbyScreens/lost-and-powerless.webp
-  name: "Потеряны и безсильны"
+  name: "Потеряны и бессильны" # Кто нахуй писать не умеет?
   artist: "dreamlyjack"
 
 - type: lobbyBackground
