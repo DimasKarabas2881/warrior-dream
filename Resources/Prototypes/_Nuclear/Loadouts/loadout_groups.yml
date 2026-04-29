@@ -1,0 +1,27 @@
+- type: loadoutGroup
+  id: UnderwearT
+  name: loadout-group-underweart
+  minLimit: 1
+  loadouts:
+  - BraClassicWhite
+  - BraSportWhite
+
+- type: loadoutGroup
+  id: UnderwearB
+  name: loadout-group-underwearb
+  minLimit: 1
+  loadouts:
+  - PantiesWhite
+  - SportyPantiesWhite
+  - BoxersWhite
+  - BriefsWhite
+
+- type: loadoutGroup
+  id: UnderwearS
+  name: loadout-group-underwears
+  minLimit: 1
+  loadouts:
+  - SocksWhite
+  - SocksShortWhite
+  - StockingsKneeWhite
+  - StockingsWhite

@@ -1,0 +1,67 @@
+### Socks ###
+
+# Short #
+
+- type: loadout
+  id: SocksShortWhite
+  equipment:
+    socks: ClothingUnderSocksShort
+
+# Normal #
+
+- type: loadout
+  id: SocksWhite
+  equipment:
+    socks: ClothingUnderSocksNormal
+
+# Knee-highs #
+
+- type: loadout
+  id: StockingsKneeWhite
+  equipment:
+    socks: ClothingUnderSocksKnee
+
+# Thigh-highs #
+
+- type: loadout
+  id: StockingsWhite
+  equipment:
+    socks: ClothingUnderSocksThigh
+
+### Underpants ###
+
+# Female #
+
+- type: loadout
+  id: PantiesWhite
+  equipment:
+    underpants: ClothingUnderPantsPanties
+
+- type: loadout
+  id: SportyPantiesWhite
+  equipment:
+    underpants: ClothingUnderPantsSport
+
+# Male #
+
+- type: loadout
+  id: BoxersWhite
+  equipment:
+    undershirt: ClothingUnderPantsBoxers
+
+- type: loadout
+  id: BriefsWhite
+  equipment:
+    undershirt: ClothingUnderPantsBriefs
+
+### Undershirt ###
+
+- type: loadout
+  id: BraClassicWhite
+  equipment:
+    undershirt: ClothingUnderShirtBra
+
+- type: loadout
+  id: BraSportWhite
+  equipment:
+    undershirt: ClothingUnderShirtTopSport
