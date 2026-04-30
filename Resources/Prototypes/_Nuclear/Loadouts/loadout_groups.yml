@@ -11,10 +11,16 @@
   name: loadout-group-underwearb
   minLimit: 1
   loadouts:
+  - LoadoutCategoryFemale
   - PantiesWhite
+  - PantiesBlack
   - SportyPantiesWhite
+  - SportyPantiesBlack
+  - LoadoutCategoryMale
   - BoxersWhite
+  - BoxersBlack
   - BriefsWhite
+  - BriefsBlack
 
 - type: loadoutGroup
   id: UnderwearS

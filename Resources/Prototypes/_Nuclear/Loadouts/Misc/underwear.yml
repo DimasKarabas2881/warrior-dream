@@ -1,3 +1,13 @@
+- type: loadout
+  id: LoadoutCategoryFemale
+  groupBy:
+  - female
+
+- type: loadout
+  id: LoadoutCategoryMale
+  groupBy:
+  - male
+
 ### Socks ###
 
 # Short #
@@ -36,11 +46,33 @@
   id: PantiesWhite
   equipment:
     underpants: ClothingUnderPantsPanties
+  groupBy:
+  - female
+  - classicPanties
+
+- type: loadout
+  id: PantiesBlack
+  equipment:
+    underpants: ClothingUnderPantsPantiesColorBlack
+  groupBy:
+  - female
+  - classicPanties
 
 - type: loadout
   id: SportyPantiesWhite
   equipment:
     underpants: ClothingUnderPantsSport
+  groupBy:
+  - female
+  - sportyPanties
+
+- type: loadout
+  id: SportyPantiesBlack
+  equipment:
+    underpants: ClothingUnderPantsSportColorBlack
+  groupBy:
+  - female
+  - sportyPanties
 
 # Male #
 
@@ -48,11 +80,33 @@
   id: BoxersWhite
   equipment:
     undershirt: ClothingUnderPantsBoxers
+  groupBy:
+  - male
+  - boxers
+
+- type: loadout
+  id: BoxersBlack
+  equipment:
+    undershirt: ClothingUnderPantsBoxersColorBlack
+  groupBy:
+  - male
+  - boxers
 
 - type: loadout
   id: BriefsWhite
   equipment:
     undershirt: ClothingUnderPantsBriefs
+  groupBy:
+  - male
+  - briefs
+
+- type: loadout
+  id: BriefsBlack
+  equipment:
+    undershirt: ClothingUnderPantsBriefsColorBlack
+  groupBy:
+  - male
+  - briefs
 
 ### Undershirt ###
 
