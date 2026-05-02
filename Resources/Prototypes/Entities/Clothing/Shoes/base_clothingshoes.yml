@@ -55,6 +55,11 @@
       params:
         volume: -5
   # Goobstation edit end
+  # Nuclear hide/block slots start
+  - type: SlotBlock
+    blockList: [ SOCKS ]
+    hideList: [ SOCKS ]
+  # Nuclear hide/block slots end
   - type: Sprite
     state: icon
   - type: Item

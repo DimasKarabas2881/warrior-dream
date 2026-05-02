@@ -79,7 +79,7 @@
 - type: loadout
   id: BoxersWhite
   equipment:
-    undershirt: ClothingUnderPantsBoxers
+    underpants: ClothingUnderPantsBoxers
   groupBy:
   - male
   - boxers
@@ -87,7 +87,7 @@
 - type: loadout
   id: BoxersBlack
   equipment:
-    undershirt: ClothingUnderPantsBoxersColorBlack
+    underpants: ClothingUnderPantsBoxersColorBlack
   groupBy:
   - male
   - boxers
@@ -95,7 +95,7 @@
 - type: loadout
   id: BriefsWhite
   equipment:
-    undershirt: ClothingUnderPantsBriefs
+    underpants: ClothingUnderPantsBriefs
   groupBy:
   - male
   - briefs
@@ -103,7 +103,7 @@
 - type: loadout
   id: BriefsBlack
   equipment:
-    undershirt: ClothingUnderPantsBriefsColorBlack
+    underpants: ClothingUnderPantsBriefsColorBlack
   groupBy:
   - male
   - briefs
