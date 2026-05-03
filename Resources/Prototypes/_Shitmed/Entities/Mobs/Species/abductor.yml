@@ -47,6 +47,8 @@
     understands:
     - TauCetiBasic # Can understand, but cannot speak it.
     - Xeeplian
+  - type: NudityExaminable # Nuclear - Ignoring nudity for species
+    ignoreNudity: true
   - type: Targeting
   - type: SurgeryTarget
   - type: Bloodstream

@@ -50,6 +50,11 @@
     slots: [innerclothing]
     equipSound:
       path: /Audio/Items/jumpsuit_equip.ogg
+  # Nuclear edit start
+  - type: NudityCheck
+    coversChest: true
+    coversGroin: true
+  # Nuclear edit end
   - type: Butcherable
     butcheringType: Knife
     spawned:

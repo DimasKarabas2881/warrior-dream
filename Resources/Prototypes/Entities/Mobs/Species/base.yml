@@ -404,6 +404,7 @@
     requiredLegs: 2
   - type: Identity
   - type: IdExaminable
+  - type: NudityExaminable # Nuclear - Nudity
   - type: Hands
   - type: ComplexInteraction
   - type: Internals

@@ -156,6 +156,8 @@
       Male: UnisexVox
       Female: UnisexVox
       Unsexed: UnisexVox
+  - type: NudityExaminable # Nuclear - Ignoring nudity for species
+    ignoreNudity: true
   - type: Butcherable
     butcheringType: Spike
     spawned:
