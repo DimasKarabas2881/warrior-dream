@@ -127,6 +127,11 @@
   - CaptainBackpack
   - CaptainOuterClothing
   - Survival
+  # Nuclear-Edit start
+  - UnderwearT
+  - UnderwearB
+  - UnderwearS
+  # Nuclear-Edit end
   - Trinkets
   - Animals
   - GroupSpeciesBreathTool
@@ -148,6 +153,11 @@
   - HoPOuterClothing
   - Glasses
   - Survival
+  # Nuclear-Edit start
+  - UnderwearT
+  - UnderwearB
+  - UnderwearS
+  # Nuclear-Edit end
   - Trinkets
   - Animals
   - GroupSpeciesBreathTool
@@ -182,12 +192,12 @@
   - PassengerShoes
   - Glasses
   - Survival
-  - Trinkets
   # Nuclear-Edit start
   - UnderwearT
   - UnderwearB
   - UnderwearS
   # Nuclear-Edit end
+  - Trinkets
   - Animals
   - GroupSpeciesBreathTool
   # Goobstation - EE Plasmeme Change.
@@ -206,6 +216,11 @@
   - BartenderOuterClothing
   - Glasses
   - Survival
+  # Nuclear-Edit start
+  - UnderwearT
+  - UnderwearB
+  - UnderwearS
+  # Nuclear-Edit end
   - Trinkets
   - Animals
   - GroupSpeciesBreathTool
@@ -223,6 +238,11 @@
   - CommonBackpack
   - Glasses
   - Survival
+  # Nuclear-Edit start
+  - UnderwearT
+  - UnderwearB
+  - UnderwearS
+  # Nuclear-Edit end
   - Trinkets
   - Animals
   - GroupSpeciesBreathTool
@@ -243,6 +263,11 @@
   - ChefOuterClothing
   - Glasses
   - Survival
+  # Nuclear-Edit start
+  - UnderwearT
+  - UnderwearB
+  - UnderwearS
+  # Nuclear-Edit end
   - Trinkets
   - Animals
   - GroupSpeciesBreathTool
@@ -260,6 +285,11 @@
   - CommonBackpack
   - Glasses
   - Survival
+  # Nuclear-Edit start
+  - UnderwearT
+  - UnderwearB
+  - UnderwearS
+  # Nuclear-Edit end
   - Trinkets
   - Animals
   - GroupSpeciesBreathTool
@@ -278,6 +308,11 @@
   - CommonBackpack
   - Glasses
   - Survival
+  # Nuclear-Edit start
+  - UnderwearT
+  - UnderwearB
+  - UnderwearS
+  # Nuclear-Edit end
   - Trinkets
   - Animals
   - GroupSpeciesBreathTool
@@ -299,6 +334,11 @@
   - ChaplainOuterClothing
   - Glasses
   - Survival
+  # Nuclear-Edit start
+  - UnderwearT
+  - UnderwearB
+  - UnderwearS
+  # Nuclear-Edit end
   - Trinkets
   - Animals
   - GroupSpeciesBreathTool
@@ -319,6 +359,11 @@
   - JanitorOuterClothing
   - Glasses
   - Survival
+  # Nuclear-Edit start
+  - UnderwearT
+  - UnderwearB
+  - UnderwearS
+  # Nuclear-Edit end
   - Trinkets
   - JanitorPlunger
   - Animals
@@ -339,6 +384,11 @@
   - BotanistOuterClothing
   - Glasses
   - Survival
+  # Nuclear-Edit start
+  - UnderwearT
+  - UnderwearB
+  - UnderwearS
+  # Nuclear-Edit end
   - Trinkets
   - Animals
   - GroupSpeciesBreathTool
@@ -360,6 +410,11 @@
   - ClownShoes
   - Glasses
   - SurvivalClown
+  # Nuclear-Edit start
+  - UnderwearT
+  - UnderwearB
+  - UnderwearS
+  # Nuclear-Edit end
   - Trinkets
   - Animals
   # Goobstation - EE Plasmeme Change.
@@ -381,6 +436,11 @@
   - MimeBelt
   - Glasses
   - SurvivalMime
+  # Nuclear-Edit start
+  - UnderwearT
+  - UnderwearB
+  - UnderwearS
+  # Nuclear-Edit end
   - Trinkets
   - Animals
   # Goobstation - EE Plasmeme Change.
@@ -400,6 +460,11 @@
   - MusicianHelmet # CorvaxGoob-Musician's Helmet
   - Glasses
   - Survival
+  # Nuclear-Edit start
+  - UnderwearT
+  - UnderwearB
+  - UnderwearS
+  # Nuclear-Edit end
   - Trinkets
   - Instruments
   - Animals
@@ -423,6 +488,11 @@
   - QuartermasterShoes
   - Glasses
   - Survival
+  # Nuclear-Edit start
+  - UnderwearT
+  - UnderwearB
+  - UnderwearS
+  # Nuclear-Edit end
   - Trinkets
   - Animals
   - GroupSpeciesBreathTool
@@ -443,6 +513,11 @@
   - CargoTechnicianShoes
   - Glasses
   - Survival
+  # Nuclear-Edit start
+  - UnderwearT
+  - UnderwearB
+  - UnderwearS
+  # Nuclear-Edit end
   - Trinkets
   - Animals
   - GroupSpeciesBreathTool
@@ -463,6 +538,11 @@
   - SalvageSpecialistShoes
   - Glasses
   - Survival
+  # Nuclear-Edit start
+  - UnderwearT
+  - UnderwearB
+  - UnderwearS
+  # Nuclear-Edit end
   - Trinkets
   - Animals
   - GroupSpeciesBreathTool
@@ -484,6 +564,11 @@
   - ChiefEngineerOuterClothing
   - ChiefEngineerShoes
   - SurvivalExtended
+  # Nuclear-Edit start
+  - UnderwearT
+  - UnderwearB
+  - UnderwearS
+  # Nuclear-Edit end
   - Trinkets
   - Animals
   - GroupSpeciesBreathTool
@@ -500,6 +585,11 @@
   - TechnicalAssistantJumpsuit
   - StationEngineerBackpack
   - SurvivalExtended
+  # Nuclear-Edit start
+  - UnderwearT
+  - UnderwearB
+  - UnderwearS
+  # Nuclear-Edit end
   - Trinkets
   - Animals
   - GroupSpeciesBreathTool
@@ -520,6 +610,11 @@
   - StationEngineerShoes
   - StationEngineerID
   - SurvivalExtended
+  # Nuclear-Edit start
+  - UnderwearT
+  - UnderwearB
+  - UnderwearS
+  # Nuclear-Edit end
   - Trinkets
   - Animals
   - GroupSpeciesBreathTool
@@ -539,6 +634,11 @@
   - AtmosphericTechnicianOuterClothing
   - AtmosphericTechnicianShoes
   - SurvivalExtended
+  # Nuclear-Edit start
+  - UnderwearT
+  - UnderwearB
+  - UnderwearS
+  # Nuclear-Edit end
   - Trinkets
   - Animals
   - GroupSpeciesBreathTool
@@ -562,6 +662,11 @@
   - ResearchDirectorShoes
   - Glasses
   - Survival
+  # Nuclear-Edit start
+  - UnderwearT
+  - UnderwearB
+  - UnderwearS
+  # Nuclear-Edit end
   - Trinkets
   - Animals
   - GroupSpeciesBreathTool
@@ -585,6 +690,11 @@
   - ScientistPDA
   - Glasses
   - Survival
+  # Nuclear-Edit start
+  - UnderwearT
+  - UnderwearB
+  - UnderwearS
+  # Nuclear-Edit end
   - Trinkets
   - Animals
   - GroupSpeciesBreathTool
@@ -602,6 +712,11 @@
   - ScientistBackpack
   - Glasses
   - Survival
+  # Nuclear-Edit start
+  - UnderwearT
+  - UnderwearB
+  - UnderwearS
+  # Nuclear-Edit end
   - Trinkets
   - Animals
   - GroupSpeciesBreathTool
@@ -624,6 +739,11 @@
   - HeadofSecurityOuterClothing
   - HeadofSecurityShoes # Goobstation edit
   - SurvivalSecurity
+  # Nuclear-Edit start
+  - UnderwearT
+  - UnderwearB
+  - UnderwearS
+  # Nuclear-Edit end
   - Trinkets
   - SecurityStar
   - Animals
@@ -647,6 +767,11 @@
   - WardenOuterClothing
   - SecurityShoes
   - SurvivalSecurity
+  # Nuclear-Edit start
+  - UnderwearT
+  - UnderwearB
+  - UnderwearS
+  # Nuclear-Edit end
   - Trinkets
   - SecurityStar
   - Animals
@@ -670,6 +795,11 @@
   - SecurityPDA
   - SecurityBelt
   - SurvivalSecurity
+  # Nuclear-Edit start
+  - UnderwearT
+  - UnderwearB
+  - UnderwearS
+  # Nuclear-Edit end
   - Trinkets
   - SecurityStar
   - Animals
@@ -690,6 +820,11 @@
   - DetectiveOuterClothing
   - SecurityShoes
   - SurvivalSecurity
+  # Nuclear-Edit start
+  - UnderwearT
+  - UnderwearB
+  - UnderwearS
+  # Nuclear-Edit end
   - Trinkets
   - SecurityStar
   - Animals
@@ -710,6 +845,11 @@
   - SurvivalSecurity
   - SecurityNeck
   - SecurityOuterClothing # Goobstation - Why not.
+  # Nuclear-Edit start
+  - UnderwearT
+  - UnderwearB
+  - UnderwearS
+  # Nuclear-Edit end
   - Trinkets
   - Animals
   - GroupSpeciesBreathToolSecurity
@@ -734,6 +874,11 @@
   - ChiefMedicalOfficerShoes
   - MedicalEyewear
   - SurvivalMedical
+  # Nuclear-Edit start
+  - UnderwearT
+  - UnderwearB
+  - UnderwearS
+  # Nuclear-Edit end
   - Trinkets
   - Animals
   - GroupSpeciesBreathToolMedical
@@ -757,6 +902,11 @@
   - MedicalDoctorPDA
   - MedicalEyewear
   - SurvivalMedical
+  # Nuclear-Edit start
+  - UnderwearT
+  - UnderwearB
+  - UnderwearS
+  # Nuclear-Edit end
   - Trinkets
   - Animals
   - GroupSpeciesBreathToolMedical
@@ -774,6 +924,11 @@
   - MedicalBackpack
   - MedicalEyewear
   - SurvivalMedical
+  # Nuclear-Edit start
+  - UnderwearT
+  - UnderwearB
+  - UnderwearS
+  # Nuclear-Edit end
   - Trinkets
   - Animals
   - GroupSpeciesBreathToolMedical
@@ -795,6 +950,11 @@
   - ChemistOuterClothing
   - MedicalShoes
   - SurvivalMedical
+  # Nuclear-Edit start
+  - UnderwearT
+  - UnderwearB
+  - UnderwearS
+  # Nuclear-Edit end
   - Trinkets
   - Animals
   - GroupSpeciesBreathToolMedical
@@ -817,6 +977,11 @@
   - ParamedicShoes
   - MedicalEyewear
   - SurvivalMedical
+  # Nuclear-Edit start
+  - UnderwearT
+  - UnderwearB
+  - UnderwearS
+  # Nuclear-Edit end
   - Trinkets
   - Animals
   - GroupSpeciesBreathToolMedical
@@ -836,6 +1001,11 @@
   - CommonBackpack
   - Glasses
   - Survival
+  # Nuclear-Edit start
+  - UnderwearT
+  - UnderwearB
+  - UnderwearS
+  # Nuclear-Edit end
   - Trinkets
   - Animals
   - GroupSpeciesBreathTool
@@ -854,6 +1024,11 @@
   - CommonBackpack
   - Glasses
   - Survival
+  # Nuclear-Edit start
+  - UnderwearT
+  - UnderwearB
+  - UnderwearS
+  # Nuclear-Edit end
   - Trinkets
   - Animals
   - GroupSpeciesBreathTool
@@ -871,6 +1046,11 @@
   - MedicalBackpack
   - Glasses
   - Survival
+  # Nuclear-Edit start
+  - UnderwearT
+  - UnderwearB
+  - UnderwearS
+  # Nuclear-Edit end
   - Trinkets
   - Animals
   - GroupSpeciesBreathTool

@@ -12,6 +12,11 @@
   - MedicalDoctorEnvirohelm
   - MedicalDoctorEnvirosuit
   - MedicalDoctorEnvirogloves
+  # Nuclear-Edit start
+  - UnderwearT
+  - UnderwearB
+  - UnderwearS
+  # Nuclear-Edit end
   - Trinkets
   - Animals
   - SurvivalMedical
@@ -29,6 +34,11 @@
   - SecurityBelt
   - WardenOuterClothing
   - SecurityShoes
+  # Nuclear-Edit start
+  - UnderwearT
+  - UnderwearB
+  - UnderwearS
+  # Nuclear-Edit end
   - SurvivalSecurity
   - SecurityStar
   - Trinkets
@@ -50,6 +60,11 @@
   - PilotOuterClothing
   - SecurityBelt
   - SecurityShoes
+  # Nuclear-Edit start
+  - UnderwearT
+  - UnderwearB
+  - UnderwearS
+  # Nuclear-Edit end
   - SurvivalSecurity
   - Trinkets
   - Animals
