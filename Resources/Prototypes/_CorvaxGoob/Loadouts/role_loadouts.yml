@@ -6,6 +6,11 @@
   - MagistrateJumpsuit
   - MagistrateOuterClothing
   - CommonBackpack
+  # Nuclear-Edit start
+  - UnderwearT
+  - UnderwearB
+  - UnderwearS
+  # Nuclear-Edit end
   - Survival
   - Trinkets
   - GroupSpeciesBreathTool
