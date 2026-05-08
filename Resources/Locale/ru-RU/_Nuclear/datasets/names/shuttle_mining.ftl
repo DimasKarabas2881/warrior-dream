@@ -1,0 +1,1 @@
+nuclear-shuttle-mining-names-dataset-1 = "Трудяга" NT-SLV

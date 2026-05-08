@@ -126,6 +126,7 @@
   - CaptainMask # Goobstation - Lollypops!
   - CaptainBackpack
   - CaptainOuterClothing
+  - CaptainGloves
   - Survival
   # Nuclear-Edit start
   - UnderwearT
@@ -139,7 +140,6 @@
   - CaptainEnvirohelm
   - CaptainEnvirosuit
   - CaptainEnvirogloves
-  - CaptainGloves
 
 - type: roleLoadout
   id: JobHeadOfPersonnel
@@ -147,11 +147,12 @@
   - Inventory # CorvaxGoob-loadouts
   - GroupTankHarness
   - HoPHead
+  - HoPGlasses # CorvaxGoob-loadouts: Glasses > HoPGlasses
   - HoPNeck
   - HoPJumpsuit
   - HoPBackpack
   - HoPOuterClothing
-  - Glasses
+  - HoPGloves
   - Survival
   # Nuclear-Edit start
   - UnderwearT
@@ -165,7 +166,7 @@
   - HoPEnvirohelm
   - HoPEnvirosuit
   - HoPEnvirogloves
-  - HoPGloves
+
 # Silicons
 - type: roleLoadout
   id: JobBorg
@@ -434,6 +435,7 @@
   - MimeBackpack
   - MimeOuterClothing
   - MimeBelt
+  - MimeGloves
   - Glasses
   - SurvivalMime
   # Nuclear-Edit start
@@ -447,18 +449,17 @@
   - MimeEnvirohelm
   - MimeEnvirosuit
   - MimeEnvirogloves
-  - MimeGloves
 
 - type: roleLoadout
   id: JobMusician
   groups:
   - Inventory # CorvaxGoob-loadouts
   - GroupTankHarness
+  - MusicianHelmet # CorvaxGoob-Musician's Helmet
+  - MusicianGlasses # CorvaxGoob-loadouts: Glasses > MusicianGlasses
   - MusicianJumpsuit
   - CommonBackpack
   - MusicianOuterClothing
-  - MusicianHelmet # CorvaxGoob-Musician's Helmet
-  - Glasses
   - Survival
   # Nuclear-Edit start
   - UnderwearT
@@ -609,6 +610,7 @@
   - StationEngineerOuterClothing
   - StationEngineerShoes
   - StationEngineerID
+  - EngineeringWelder # CorvaxGoob-loadouts
   - SurvivalExtended
   # Nuclear-Edit start
   - UnderwearT
@@ -633,6 +635,7 @@
   - AtmosphericTechnicianBackpack
   - AtmosphericTechnicianOuterClothing
   - AtmosphericTechnicianShoes
+  - EngineeringWelder # CorvaxGoob-loadouts
   - SurvivalExtended
   # Nuclear-Edit start
   - UnderwearT
@@ -738,6 +741,7 @@
   - SecurityBelt
   - HeadofSecurityOuterClothing
   - HeadofSecurityShoes # Goobstation edit
+  - HeadofSecurityGloves
   - SurvivalSecurity
   # Nuclear-Edit start
   - UnderwearT
@@ -752,7 +756,6 @@
   - HeadofSecurityEnvirohelm
   - HeadofSecurityEnvirosuit
   - HeadofSecurityEnvirogloves
-  - HeadofSecurityGloves
 
 - type: roleLoadout
   id: JobWarden
@@ -760,7 +763,7 @@
   - Inventory # CorvaxGoob-loadouts
   - WardenHead
   - WardenJumpsuit
-  - SecurityBackpack
+  - WardenBackpack # CorvaxGoobChanges: SecurityBackpack > WardenBackpack
   - SecurityMelee # Goobstation
   - SecurityNeck
   - SecurityBelt
@@ -819,6 +822,7 @@
   - SecurityBackpack
   - DetectiveOuterClothing
   - SecurityShoes
+  - DetectiveGloves
   - SurvivalSecurity
   # Nuclear-Edit start
   - UnderwearT
@@ -833,7 +837,6 @@
   - DetectiveEnvirohelm
   - DetectiveEnvirosuit
   - DetectiveEnvirogloves
-  - DetectiveGloves
 
 - type: roleLoadout
   id: JobSecurityCadet
@@ -866,13 +869,13 @@
   - GroupTankHarness
   - ChiefMedicalOfficerHead
   - MedicalMask
+  - ChiefMedicalOfficerGlasses # CorvaxGoob-loadouts: MedicalEyewear > ChiefMedicalOfficerGlasses 
   - ChiefMedicalOfficerJumpsuit
   - MedicalGloves
   - MedicalBackpack
   - ChiefMedicalOfficerOuterClothing
   - ChiefMedicalOfficerNeck
   - ChiefMedicalOfficerShoes
-  - MedicalEyewear
   - SurvivalMedical
   # Nuclear-Edit start
   - UnderwearT
@@ -894,13 +897,13 @@
   - GroupTankHarness
   - MedicalDoctorHead
   - MedicalMask
+  - MedicalEyewear
   - MedicalDoctorJumpsuit
   - MedicalGloves
   - MedicalBackpack
   - MedicalDoctorOuterClothing
   - MedicalShoes
   - MedicalDoctorPDA
-  - MedicalEyewear
   - SurvivalMedical
   # Nuclear-Edit start
   - UnderwearT
@@ -919,10 +922,10 @@
   id: JobMedicalIntern
   groups:
   - Inventory # CorvaxGoob-loadouts
+  - MedicalEyewear
   - GroupTankHarness
   - MedicalInternJumpsuit
   - MedicalBackpack
-  - MedicalEyewear
   - SurvivalMedical
   # Nuclear-Edit start
   - UnderwearT
@@ -970,12 +973,12 @@
   - GroupTankHarness
   - ParamedicHead
   - MedicalMask
+  - MedicalEyewear
   - ParamedicJumpsuit
   - MedicalGloves
   - MedicalBackpack
   - ParamedicOuterClothing
   - ParamedicShoes
-  - MedicalEyewear
   - SurvivalMedical
   # Nuclear-Edit start
   - UnderwearT

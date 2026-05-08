@@ -52,20 +52,19 @@
 - type: gameMapPool
   id: DefaultMapPool
   maps:
-  - Atlas
+  #- Atlas Губовские поймут
   - Amber
-  - Aspid #Real.
   - Bagel
   - Box
   - Cluster
   #- Core
   - Fland
- # - Gate Goobstation - My name is Walter Hartwell White, I live at 2308 Negra alloya line albequrque new mexico.
+  #- Gate Goobstation - My name is Walter Hartwell White, I live at 2308 Negra alloya line albequrque new mexico.
   #- Loop Goobstation - I love maintenance!!!
   - Marathon
   - Meta
   - Oasis
-  - Omega
+  # - Omega # извини, но нет
   - Origin
   - Saltern
   - Packed
@@ -80,3 +79,7 @@
   - Chloris # Goobstation - also Corvax because we love goidamaps
   - Cog # those who forget to clear their multitool
   - Serpentcrest # Goobstation when contra
+  - NukeAspid #Да, я допом. вывел их в отдельный пул
+  - NukeAtlas
+  - NukeLegacyCluster
+  - NukeOmega

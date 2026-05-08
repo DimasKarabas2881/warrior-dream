@@ -1,10 +1,10 @@
-<p align="center"> <img alt="Space Station 14" width="880" height="300" src="https://raw.githubusercontent.com/space-wizards/asset-dump/de329a7898bb716b9d5ba9a0cd07f38e61f1ed05/github-logo.svg" /></p>
+<p align="center"> <img alt="Space Station 14" width="880" height="300" src="https://i.imgur.com/ybuafZL.png" /></p>
 
-CorvaxGoob - это активно модифицируемый и основывающийся форк от всем изестного репозитория Goob Station, направленный на его перевод и создание собственного контента.
+Ядерный Рассол 14 - это активно модифицируемый форк от репозитория Corvax Goob, направленный на создание собственного контента и более активный и динамичный геймплей нежели в ваниле.
 
 ## Ссылки
 
-[Наш Discord](https://discord.station14.ru) | [Наша Вики](https://wiki.station14.ru) | [Steam](https://store.steampowered.com/app/1255460/Space_Station_14/) | [Клиент без Steam](https://spacestation14.io/about/nightlies/) | [Основной репозиторий](https://github.com/space-wizards/space-station-14) | [Основной репозиторий Goob Station](https://github.com/Goob-Station/Goob-Station)
+[Наш Discord](https://discord.gg/4m66KmRVAV) | [Corvax Discord](https://discord.station14.ru) | [Corvax Вики](https://wiki.station14.ru) | [Steam](https://store.steampowered.com/app/1255460/Space_Station_14/) | [Клиент без Steam](https://spacestation14.io/about/nightlies/) | [Основной репозиторий](https://github.com/space-wizards/space-station-14) | [Основной репозиторий Goob Station](https://github.com/Goob-Station/Goob-Station)
 
 ## Документация
 
@@ -17,9 +17,11 @@ CorvaxGoob - это активно модифицируемый и основы�
 
 ## Сборка
 
-1. Склонируйте этот репозиторий локально
+1. Склонируйте этот репозиторий локально.
 2. Запустите `RUN_THIS.py` для инициализации подмодулей и скачивания движка.
-3. Скомпилируйте проект.
+3. Скачайте Dotnet 9 SDK с официального сайта Microsoft.
+4. Откройте консоль в директории проекта.
+5. Соберите проект с помощью `dotnet build`.
 
 [Более подробная инструкция по запуску проекта.](https://docs.spacestation14.com/en/general-development/setup.html)
 

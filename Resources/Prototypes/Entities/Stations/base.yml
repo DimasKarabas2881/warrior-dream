@@ -155,9 +155,9 @@
           - /Maps/_CorvaxGoob/Ruins/corvax_ussp_debris.yml
           - /Maps/_CorvaxGoob/Ruins/corvax_ussp_asteroid.yml
         mining: !type:GridSpawnGroup
-          paths:
-          - /Maps/_CorvaxGoob/Base/Shuttles/corvax_mining.yml
-          nameDataset: CorvaxShuttleMiningNames
+         paths:
+         - /Maps/_Nuclear/Base/Shuttles/nuclear_mining.yml
+         nameDataset: NuclearShuttleMiningNames
         #wrecks: !type:DungeonSpawnGroup
         #  minimumDistance: 150
         #  maximumDistance: 300
