@@ -590,7 +590,7 @@ public sealed class LobbyUIController : UIController, IOnStateEntered<LobbyState
 
                     if (_inventory.TryGetSlotEntity(dummyEnt, slot.Name, out var item))
                     {
-                        _inventory.TryUnequip(dummyEnt, slot.Name, out _, silent: true, force: true, reparent: true);
+                        _inventory.TryUnequip(dummyEnt, slot.Name, out _, silent: true, force: true, reparent: false);
                         EntityManager.DeleteEntity(item.Value);
                     }
                 }
